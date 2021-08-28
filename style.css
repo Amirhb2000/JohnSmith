@@ -7,7 +7,10 @@
 li {
   list-style: none;
 }
-
+a {
+  text-decoration: none;
+  color: #fff;
+}
 body {
   background: url("bg.jpg") no-repeat center center/cover;
   display: flex;
@@ -20,6 +23,9 @@ body {
   overflow: hidden;
   width: 650px;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* Main Box */
 .box {
@@ -101,7 +107,10 @@ body {
 .address {
   text-align: center;
 }
-
+/* Cursor */
+.txt-type > .txt {
+  border-right: 0.1rem solid #777;
+}
 /* Media */
 @media only screen and (max-width: 768px) {
   .container {
